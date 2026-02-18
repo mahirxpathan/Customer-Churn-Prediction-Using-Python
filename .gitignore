@@ -1,7 +1,6 @@
 # Models and Data
 *.pkl
 *.zip
-*.csv
 
 # Python
 __pycache__/
