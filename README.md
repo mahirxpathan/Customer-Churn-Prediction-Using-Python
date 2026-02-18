@@ -1,49 +1,49 @@
-# Customer Churn Prediction Project
+# 📊 Customer Churn Prediction: High-Impact ML for Telecom Retention
 
-## Overview
-This project aims to predict customer churn for a telecommunications company using advanced machine learning algorithms. The project applies various machine learning techniques to identify patterns in customer behavior that indicate a likelihood to discontinue services.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
 
-## Features
-- Three different machine learning models: Logistic Regression, Support Vector Machine (SVM), and Random Forest
-- Interactive Streamlit web application for predictions
-- Exploratory Data Analysis (EDA) with visualizations
-- Model performance comparison dashboard
+## 🚀 Overview
+Customer churn is a critical challenge in the telecommunications industry, where acquisition costs far exceed retention costs. This project leverages **Machine Learning** to identify at-risk customers, enabling businesses to proactively deploy retention strategies. 
 
-## Project Structure
-- `TCA_mahiri.ipynb`: Jupyter notebook with complete project implementation
-- `streamlit_app.py`: Interactive Streamlit web application
-- `save_models.py`: Script to train and save the ML models
-- `Customer Churn.csv`: Dataset used for training and testing
-- Model files: Saved trained models and preprocessing objects
-- `churn_analysis_project.zip`: Complete project archive
+I developed a high-recall predictive system using a suite of algorithms (**Logistic Regression, SVM, and Random Forest**) to ensure high accuracy in identifying potential churners.
 
-## How to Run
+## 🛠️ Key Features
+- **Real-time Prediction**: Interactive dashboard for instant churn risk assessment.
+- **Explainable AI**: Visualizes factors driving churn (e.g., contract type, monthly charges).
+- **Comprehensive EDA**: In-depth analysis of customer behavior patterns.
+- **Model Intelligence**: Benchmarking multiple algorithms to select the most robust solution.
+
+## 📂 Project Structure
+- `streamlit_app.py`: Main interactive dashboard application.
+- `save_models.py`: Production-ready script for model training and serialization.
+- `TCA_mahiri.ipynb`: Full analytical playground with deep-dive EDA and feature engineering.
+- `Customer Churn.csv`: Standardized Telco dataset.
+
+## ⚙️ How to Run
 
 ### Prerequisites
-- Python 3.7+
-- Required packages: streamlit, pandas, numpy, scikit-learn, matplotlib, seaborn, joblib
+- Python 3.8+
+- Required Libraries: `streamlit`, `pandas`, `scikit-learn`, `seaborn`, `joblib`, `imbalanced-learn`
 
-### Installation
-1. Download and extract this project package
-2. Install required packages: `pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib`
-3. Run the save_models.py script to train and save the models: `python save_models.py`
-4. Run the Streamlit app: `streamlit run streamlit_app.py`
+### Setup & Launch
+1. **Clone the repository**
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Train Models**:
+   ```bash
+   python save_models.py
+   ```
+4. **Run Dashboard**:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
 
-### Usage
-1. After running the app, access it through your web browser using the URL displayed in the terminal (typically http://localhost:8501 unless that port is occupied)
-2. Navigate to the Prediction page to enter customer information and predict churn risk
-3. View model performance comparison on the Model Comparison page
-4. Explore the dataset with visualizations on the EDA page
+## 👨‍💻 Developer
+- **Mahir Khan Pathan** - *Machine Learning Developer*
 
-## Developer
-- Mahir Khan Pathan
-
-## Academic Details
-- Course: BCA Semester 6
-- Subject: Data Analytics using Python
-- Dataset: Telco Customer Churn (downloaded from Kaggle)
-
-## Algorithms Used
-- **Logistic Regression**: Interpretable linear model ideal for binary classification tasks
-- **Support Vector Machine**: Effective for complex patterns and high-dimensional spaces
-- **Random Forest**: Ensemble method combining multiple decision trees with feature importance rankings
+---
+*Focused on bridging the gap between raw data and actionable business insights through predictive modeling.*
