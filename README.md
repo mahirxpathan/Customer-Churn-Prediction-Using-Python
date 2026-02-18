@@ -35,7 +35,7 @@ I developed a high-recall predictive system using a suite of algorithms (**Logis
 ## ⚙️ How to Run Locally
 
 ### Setup & Launch
-1. **Clone the repository**
+1. **Clone the repository**: `git clone https://github.com/mahirxpathan/Customer-Churn-Prediction-Using-Python.git`
 2. **Install dependencies**: `pip install -r requirements.txt`
 3. **Train Models**: `python save_models.py`
 4. **Run Dashboard**: `streamlit run streamlit_app.py`
