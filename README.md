@@ -46,4 +46,4 @@ I developed a high-recall predictive system using a suite of algorithms (**Logis
 - **Mahir Khan Pathan** - *Machine Learning Developer*
 
 ---
-*Focused on bridging the gap between raw data and actionable business insights through predictive modeling.*
+*Building data-driven solutions for real-world business impact.*
