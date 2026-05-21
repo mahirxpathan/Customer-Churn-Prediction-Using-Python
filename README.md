@@ -41,7 +41,7 @@ I developed a high-recall predictive system using a suite of algorithms (**Logis
 4. **Run Dashboard**: `streamlit run streamlit_app.py`
 
 ## 👨‍💻 Developer
-- **Mahir Khan Pathan** - *Machine Learning Explorer*
+**Developed with ❤️ by Mahiri.**
 
 ---
 *Building data-driven solutions for real-world business impact.*
